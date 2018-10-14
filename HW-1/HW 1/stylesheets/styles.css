@@ -1,0 +1,628 @@
+body{
+  font-size: 10px;
+}
+
+.thinblack {
+  position: relative;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+.bigred {
+  /*position: absolute;
+  left: 50px;
+  width: 1450px;
+  */
+  position: relative;
+}
+
+.choose {
+  /*position: absolute;
+  top: 290px;
+  left: 575px;*/
+  position: relative;
+/*  left: 550px; */
+  font-size: 12px;
+}
+h1{
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  text-align: left;
+
+}
+
+body{
+  font-size: 8px;
+  font-family: "Georgia", sans-serif;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: "Bree Serif";
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+
+}
+
+.subs {
+  color: yellow;
+  font-family: "Times New Roman";
+
+}
+
+.ends {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+p {
+  margin: 0;
+}
+
+div.basic {
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  border: 1px #3366ff;
+  padding: 20px;
+  margin: 20px;
+  background-color: #3366ff;
+  width: 200px;
+  /*position: absolute;
+  left:80px;
+  top:300px;
+  */
+  position: absolute;
+  left: 100px;
+  /*bottom: 100px;*/
+
+}
+
+div.getbasic {
+  text-align: center;
+  border: 1px #99e6ff;
+  background-color: #99e6ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+div.basic-details {
+  /*position: absolute;
+  left: 55px;
+  top: 470px;*/
+  position: relative;
+  left: 70px;
+  top: -30px;
+  width: 270px;
+  text-align: left;
+  font-size: 12px;
+
+}
+
+ul {
+  list-style: none;
+}
+ul li::before{
+  content: '✔';
+}
+
+div.all-access {
+/*  position:absolute;
+  top: 350px;
+  left: 500px;
+  */
+  position: relative;
+  left: 500px;
+  top: -130px;
+  font-size: 15px;
+  background-color: #0033cc;
+  padding: 20px;
+  border: 1px #0033cc;
+  color: white;
+  width: 200px;
+  text-align: left;
+}
+
+div.getallaccess {
+text-align: center;
+border: 1px #99e6ff;
+background-color: #99e6ff;
+padding: 10px;
+border-radius: 5px;
+}
+
+div.allaccessdetails {
+  position:relative;
+  left: 460px;
+  top: -130px;
+  text-align: left;
+  font-size: 12px;
+}
+
+div.allaccessprint {
+  position: relative;
+  left: 900px;
+  top: -660px;
+  font-size: 15px;
+  background-color: black;
+  padding: 20px;
+  border: 1px black;
+  color: white;
+  width: 300px;
+  text-align: left;
+}
+
+div.gaap {
+  text-align: center;
+  border: 1px gray;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+div.allaccessprint-details {
+  text-align: left;
+  position: relative;
+  font-size: 12px;
+  left: 875px;
+  top:-660px;
+}
+
+#group1 {
+  width: 250px;
+  position: relative;
+  left: 350px;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+}
+#group2 {
+  width: 265px;
+  position: relative;
+  left: 700px;
+  top: -363px;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+}
+#group3 {
+  width: 320px;
+  position:relative;
+  top: -927px;
+  left: 1050px;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+}
+
+#note {
+  color: gray;
+  font-size: 11px;
+}
+
+#note2 {
+  color: gray;
+  font-size: 11px;
+  text-align: left;
+  position: relative;
+  top:-850px;
+  left: 300px;
+  font-family: "Arial", sans-serif;
+}
+
+.page1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  /* this may be useless*/
+}
+.page2 {
+  position: relative;
+  top: -700px;
+  left: 300px;
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+  align-content: space-between;
+  font-family: "Arial", sans-serif;
+
+
+}
+
+.more {
+  font-size: 25px;
+  position:relative;
+  top: -700px;
+  left: -280px;
+  font-family: "Arial", sans-serif;
+}
+
+.block1 {
+  background-color: #e6e6e6;
+  padding:20px;
+  width: 500px;
+  border: 1px #e6e6e6;
+  margin: 20px;
+  border-radius: 5px;
+
+}
+
+.b1-2,.b2-2,.b3-2,.b4-2,.b5-2 {
+  color: blue;
+}
+
+.block2 {
+  background-color: #e6e6e6;
+  padding:20px;
+  width: 500px;
+  border: 1px #e6e6e6;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.block3 {
+  background-color: #e6e6e6;
+  padding:20px;
+  width: 500px;
+  border: 1px #e6e6e6;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.block4 {
+  background-color: #e6e6e6;
+  padding:20px;
+  width: 500px;
+  border: 1px #e6e6e6;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.block5 {
+  background-color: #e6e6e6;
+  padding:20px;
+  width: 500px;
+  border: 1px #e6e6e6;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#top1,#top2,#top3,#top4,#login {
+  font-family: "Arial", sans-serif;
+}
+#top1 {
+  position: absolute;
+  left: 630px;
+  top: 80px;
+  font-size: 14px;
+}
+#top2 {
+  position:absolute;
+  left: 760px;
+  top: 80px;
+  font-size: 14px;
+}
+#top3 {
+  position:absolute;
+  left: 880px;
+  top: 80px;
+  font-size: 14px;
+}
+#top4 {
+  position: absolute;
+  left: 960px;
+  top: 80px;
+  font-size: 14px;
+}
+#login {
+  font-size: 14px;
+  position: absolute;
+  left: 1400px;
+  top: 80px;
+}
+
+#freq {
+  font-size: 25px;
+  position: relative;
+  top: 250px;
+  left: -555px;
+  font-family: "Arial", sans-serif;
+}
+
+.faq {
+  position:absolute;
+  left: 15px;
+  top: 670px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+  align-content: space-between;
+  font-family: "Arial", sans-serif;
+}
+
+.dropbtn{
+  color: blue;
+  border: none;
+  background-color: white;
+}
+
+.viewallfaq {
+  position: absolute;
+  left: 330px;
+  top: 2620px;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  width: 150px;
+  border-radius: 5px;
+  text-align: center;
+  height: 15px;
+  font-size: 15px;
+}
+
+.bigblack {
+  position: absolute;
+  left: 10px;
+  top: 2750px;
+  width: 99%;
+  height: 300px;
+}
+
+.image2 {
+  position: relative;
+  left: 100px;
+  top: -280px;
+}
+
+.copyright{
+  color: white;
+  position:relative;
+  font-family: "Arial", sans-serif;
+  top: 50px;
+  left: -810px;
+  font-size: 15px;
+}
+
+
+
+.about {
+  position: relative;
+  top: -280px;
+  left: -400px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.TNYTC {
+  position: relative;
+  top:  -265px;
+  left: -320px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.Privacy {
+  position: relative;
+  top: -250px;
+  left: -250px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.terms {
+  position: relative;
+  top: -235px;
+  left: -252px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.help {
+  position: relative;
+  top: -350px;
+  left: 25px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+.freql {
+  position: relative;
+  top: -335px;
+  left: 103px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.contact {
+  position: relative;
+  top: -320px;
+  left: 45px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.feedback {
+  position: relative;
+  top: -305px;
+  left: 42px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.ways {
+  position: relative;
+  top: -430px;
+  left: 400px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.digital {
+  position: relative;
+  top: -415px;
+  left: 412px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.edu {
+  position: relative;
+  top: -400px;
+  left: 388px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.groupS {
+  position: relative;
+  top: -385px;
+  left: 400px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.tcross {
+  position: relative;
+  top: -370px;
+  left: 386px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.giftS {
+  position: relative;
+  top: -355px;
+  left: 392px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.bonus1 {
+  position: absolute;
+  font-size: 15px;
+  border: 1px red;
+  border-radius: 5px;
+  color: white;
+  padding: 2px;
+  background-color: red;
+  top: 956px;
+  left: 877px;
+}
+
+.bonus2 {
+  position: absolute;
+  font-size: 15px;
+  border: 1px red;
+  border-radius: 5px;
+  color: white;
+  padding: 2px;
+  background-color: red;
+  top: 961px;
+  left: 1234px;
+}
+
+a:link,a:visited, a:hover, a:active {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+/*
+position: relative;
+top: -700px;
+left: 300px;
+font-size: 15px;
+text-align: left;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+width: 500px;
+height: 700px;
+align-content: space-between;
+
+position: relative;
+left: 500px;
+top: -130px;
+font-size: 15px;
+background-color: #0033cc;
+padding: 20px;
+border: 1px #0033cc;
+color: white;
+width: 200px;
+text-align: left;
+*/
+/*
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+*/
+/*h3 {
+  color: yellow;
+}
+*/
+/* main font: Georgia
+Arial as sans serif font
